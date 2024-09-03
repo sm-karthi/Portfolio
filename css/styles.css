@@ -1,0 +1,562 @@
+* {
+    overflow-x: hidden;
+  }
+  
+  
+  body {
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .back {
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    margin: 0px;
+  
+    position: fixed;
+    z-index: 1;
+    padding: 10px;
+    
+  }
+  .navs {
+    color: black;
+  }
+  
+  nav {
+    font-size: 33px;
+    position: absolute;
+    left: 750px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    word-spacing: 40px;
+  }
+  
+  
+  
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 33px;
+    text-decoration: underline;
+  }
+  
+  #hello {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 220px;
+    left: 65px;
+    font-size: 60px;
+  }
+  
+  .gv{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 310px;
+    left: 143px;
+    color: rgb(173, 64, 64);
+  }
+  
+  
+  .less {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    position: absolute;
+    top: 360px;
+    left: 200px;
+  }
+  
+  .devel {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 540px;
+    left: 360px;
+  }
+  
+  .mypic {
+    width: 600px;
+    height: 600px;
+    margin: 890px;
+    position: absolute;
+    top: 50px;
+    margin-top: 100px;
+  }
+  
+  .hire {
+    margin: 400px;
+    margin-left: 350px;
+    position: absolute;
+    top: 290px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    left: 0px;
+    background-color: rgb(110, 164, 182);
+    width: fit-content;
+    border-radius: 40px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 2px 20px rgb(58, 57, 57);
+  }
+  .hire a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  #about {
+    position: absolute;
+    top: 790px;
+  }
+  
+  #skills {
+    position: absolute;
+    top: 1600px;
+  }
+  
+  .para {
+    position: absolute;
+    top: 950px;
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    padding: 40px;
+    border-radius: 250px;
+    right: 300px;
+    box-shadow: 0px 2px 20px rgb(58, 57, 57);
+  
+  }
+  
+  
+  .edu {
+    background-color: black;
+    position: absolute;
+    top: 1180px;
+    left: 230px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: fit-content;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 5px 30px rgb(58, 57, 57);
+  }
+  
+  .box {
+    position: absolute;
+    top: 1290px;
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    padding: 100px;
+    border-radius: 250px;
+    width: 650px;
+    left: 330px;
+    box-shadow: 0px 2px 20px rgb(58, 57, 57);
+  }
+  
+  .scl {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1320px;
+    left: 376px;
+    font-size: 25px;
+    word-spacing: 75px;
+  }
+  
+  .school {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1300px;
+    left: 620px;
+    font-size: 30px;
+  
+  }
+  
+  .year {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1327px;
+    left: 690px;
+    font-size: 15px;
+  }
+  
+  .area {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1350px;
+    left: 620px;
+    font-size: 15px;
+    color: #c85ec8;
+  }
+  
+  .areas {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1350px;
+    left: 621px;
+    font-size: 15px;
+    color: #2a87a4;
+  }
+  
+  .web {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1400px;
+    left: 375px;
+    font-size: 18px;
+  
+  }
+  
+  .webs {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1387px;
+    left: 620px;
+    font-size: 23px;
+  }
+  
+  .loc {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1425px;
+    left: 620px;
+    font-size: 18px;
+    color: #c85ec8;
+  }
+  
+  .locs {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1425px;
+    left: 621px;
+    font-size: 18px;
+    color: #2a87a4;
+  }
+  
+  .python {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1800px;
+    left: 200px;
+    font-size: 28px;
+    
+  }
+  
+  .pyt {
+    height: 15px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    top: 1920px;
+    left: 230px;
+    border-radius: 50px;
+  }
+  
+  .pyth {
+    height: 15px;
+    width: 50px;
+    background-color: rgb(1, 250, 254);
+    position: absolute;
+    top: 1920px;
+    left: 230px;
+    border-radius: 50px;
+  }
+  
+  .html {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1800px;
+    left: 899px;
+    font-size: 28px;
+    
+  }
+  
+  .ht {
+    height: 15px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    top: 1920px;
+    left: 930px;
+    border-radius: 50px;
+  }
+  
+  .htm {
+    height: 15px;
+    width: 430px;
+    background-color: rgb(1, 250, 254);
+    position: absolute;
+    top: 1920px;
+    left: 930px;
+    border-radius: 50px;
+  }
+  
+  .csss {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1970px;
+    left: 200px;
+    font-size: 28px;
+    
+  }
+  
+  .c {
+    height: 15px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    top: 2090px;
+    left: 230px;
+    border-radius: 50px;
+  }
+  
+  .cs {
+    height: 15px;
+    width: 350px;
+    background-color: rgb(1, 250, 254);
+    position: absolute;
+    top: 2090px;
+    left: 230px;
+    border-radius: 50px;
+  }
+  
+  .ccc {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1970px;
+    left: 900px;
+    font-size: 28px;
+    
+  }
+  
+  .cccc {
+    height: 15px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    top: 2085px;
+    left: 930px;
+    border-radius: 50px;
+  }
+  
+  .ccccc {
+    height: 15px;
+    width: 0px;
+    background-color: rgb(1, 250, 254);
+    position: absolute;
+    top: 2085px;
+    left: 930px;
+    border-radius: 50px;
+  }
+  
+  .js {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 2150px;
+    left: 200px;
+    font-size: 28px;
+    
+  
+  }
+  
+  .ja {
+    height: 15px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    top: 2280px;
+    left: 230px;
+    border-radius: 50px;
+  }
+  
+  .jas {
+    height: 15px;
+    width: 200px;
+    background-color: rgb(1, 250, 254);
+    position: absolute;
+    top: 2280px;
+    left: 230px;
+    border-radius: 50px;
+  }
+  
+  .pas {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 2150px;
+    left: 900px;
+    font-size: 28px;
+    
+  }
+  
+  .ps {
+    height: 15px;
+    width: 450px;
+    background-color: black;
+    position: absolute;
+    top: 2275px;
+    left: 930px;
+    border-radius: 50px;
+  }
+  
+  .prs {
+    height: 15px;
+    width: 400px;
+    background-color: rgb(1, 250, 254);
+    position: absolute;
+    top: 2275px;
+    left: 930px;
+    border-radius: 50px;
+  }
+  
+  .pylogo {
+    position: absolute;
+    top: 1910px;
+    left: 170px;
+  }
+  
+  .htlogo {
+    position: absolute;
+    top: 1910px;
+    left: 879px;
+  }
+  
+  .csslogo {
+    position: absolute;
+    top: 2079px;
+    left: 170px;
+  }
+  
+  .cclogo {
+    position: absolute;
+    top: 2065px;
+    left: 879px;
+  }
+  
+  .jslogo {
+    position: absolute;
+    top: 2260px;
+    left: 170px;
+  }
+  
+  .pslogo {
+    position: absolute;
+    top: 2257px;
+    left: 879px;
+  }
+  
+  .email {
+    position: absolute;
+    top: 2900px;
+    left: 400px;
+    background-image: linear-gradient(to right, #a6a6a6, #ffffff);
+    padding: 40px;
+    border-radius: 50px;
+    width: 500px;
+    height: 150px;
+    padding-left: 150px;
+    box-shadow: 0px 2px 20px rgb(58, 57, 57);
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+  }
+  .email a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .linked {
+    position: absolute;
+    top: 3020px;
+    left: 550px;
+    font-family: "Shrikhand", serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 19px;
+  }
+  .linked a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .go {
+    position: absolute;
+    top: 3400px;
+    right: 0px;
+  
+  }
+  
+  .gmailicon {
+    position: absolute;
+    top: 2925px;
+    left: 450px;
+  }
+  
+  .linkedicon {
+    position: absolute;
+    top: 3010px;
+    left: 450px;
+  }
+  
